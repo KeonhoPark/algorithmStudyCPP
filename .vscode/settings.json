@@ -6,6 +6,9 @@
         "utility": "cpp",
         "xtree": "cpp",
         "vector": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "algorithm": "cpp",
+        "list": "cpp",
+        "memory": "cpp"
     }
 }
