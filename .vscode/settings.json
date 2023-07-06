@@ -9,6 +9,14 @@
         "map": "cpp",
         "algorithm": "cpp",
         "list": "cpp",
-        "memory": "cpp"
+        "memory": "cpp",
+        "xmemory": "cpp",
+        "xutility": "cpp",
+        "initializer_list": "cpp",
+        "xhash": "cpp",
+        "atomic": "cpp",
+        "ios": "cpp",
+        "system_error": "cpp",
+        "xiosbase": "cpp"
     }
 }
