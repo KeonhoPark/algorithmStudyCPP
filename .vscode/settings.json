@@ -17,6 +17,7 @@
         "atomic": "cpp",
         "ios": "cpp",
         "system_error": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "valarray": "cpp"
     }
 }
