@@ -19,6 +19,7 @@
         "system_error": "cpp",
         "xiosbase": "cpp",
         "valarray": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "*.tcc": "cpp"
     }
 }
