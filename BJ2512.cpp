@@ -43,7 +43,7 @@ int main(){
             }
             else{
                 end = mid - 1;
-            }
+            }                                       
             result = end;
         }
         cout << result;
