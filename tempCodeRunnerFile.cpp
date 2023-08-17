@@ -1,4 +1,2 @@
-while(!s.empty()){
-    //     cout << s.top() << "\n";
-    //     s.pop();
-    // }
+// cin.tie(0);
+    // ios::sync_with_stdio(false);
