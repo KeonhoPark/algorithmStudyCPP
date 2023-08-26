@@ -1,3 +1,2 @@
-for(auto c : numbers){
-            if(c != '[' && c != ']' && c != ',') dq.push_back(c - '0');
-        }
+cin.tie(0);
+    ios::sync_with_stdio(false);
