@@ -20,6 +20,7 @@
         "xiosbase": "cpp",
         "valarray": "cpp",
         "functional": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "stack": "cpp"
     }
 }

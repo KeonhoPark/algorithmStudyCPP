@@ -6,50 +6,42 @@ int main(){
     ios::sync_with_stdio(false);
 
     stack<char> s;
-    int score;
+    int sum = 0;
+    int mul = 1;
     string input;
     cin >> input;
 
-    if(input[0] == '('){
-        score = 2;
-        s.push(input[0]);
-    }
-    else if(input[0] == '['){
-        score = 3;
-        s.push(input[0]);
-    }
-    else{
-        cout << 0;
-        return 0;
-    }
-
-    char isError = 0;
-    char isFirst = 0;
-    for(int i = 1; i < input.size(); i++){
+    for(int i = 0; i < input.size(); i++){
         if(input[i] == '('){
-            if()
+            mul *= 2;
             s.push(input[i]);
-            score *= 2;
         }
         else if(input[i] == '['){
+            mul *= 3;
             s.push(input[i]);
-            score *= 3;
+        }
+        else if(input[i] == ')'){
+            if(s.empty() || s.top() != '('){
+                cout << 0;
+                return 0;
+            }
+            if(input[i-1] == '(') sum += mul;
+            mul /= 2;
+            s.pop();
         }
         else{
-            if(s.empty()){
-                flag = 1;
-                break;
+            if(s.empty() || s.top() != '['){
+                cout << 0;
+                return 0;
             }
-            if((s.top() == '(' && input[i] == ']') || (s.top() == '[' && input[i] == ')')){
-                flag = 1;
-                break;
-            }
+            if(input[i-1] == '[') sum += mul;
+            mul /= 3;
             s.pop();
         }
     }
 
-    if(isError) cout << 0;
-    else cout << score;
+    if(!s.empty()) cout << 0;
+    else cout << sum;
 
     return 0;
 }
