@@ -21,6 +21,8 @@
         "valarray": "cpp",
         "functional": "cpp",
         "*.tcc": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "type_traits": "cpp",
+        "queue": "cpp"
     }
 }
