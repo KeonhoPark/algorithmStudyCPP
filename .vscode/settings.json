@@ -25,6 +25,7 @@
         "type_traits": "cpp",
         "queue": "cpp",
         "forward_list": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "iosfwd": "cpp"
     }
 }
