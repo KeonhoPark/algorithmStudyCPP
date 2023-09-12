@@ -1,10 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+#define MAX 1500001
+
 int n;
-int times[16];
-int pays[16];
-int dp[16];
+int times[MAX];
+int pays[MAX];
+int dp[MAX];
 
 int main(){
     cin.tie(0);
