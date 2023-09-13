@@ -1,5 +1,10 @@
-for(int i = 0; i < n; i++){
-    //     for(int j = 0; j < m; j++){
-            
-    //     }
+cin >> t;
+
+    // for(int i = 0; i < t; i++){
+    //     int n, m;
+    //     cin >> n >> m;
+
+    //     dp
+
+    //     cout << combination(n, m) << "\n";
     // }
