@@ -1,2 +1,1 @@
-cin.tie(0);
-    ios::sync_with_stdio(false);
+cout << a[j] << " " << b[j] << "\n";
