@@ -1,5 +1,4 @@
-for(int i = 0; i < n; i++){
-    //     int input;
-    //     cin >> input;
-    //     keys[input] = 1;
-    // }
+bool isIn(int y, int x){
+//     if(y < 0 || y >= n || x < 0 || x >= m) return false;
+//     return true;
+// }
