@@ -1,2 +1,2 @@
-for(auto t : total) cout << t << " ";
-        // cout << "\n";
+cin.tie(0);
+    // ios::sync_with_stdio(false);
