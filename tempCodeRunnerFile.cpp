@@ -1,1 +1,1 @@
-else if(grade == "F") totalScore += (0.0 * hak);
+sort(people.begin(), people.end(), greater<string>());
