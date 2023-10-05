@@ -1,5 +1,20 @@
-for(int i = 1; i <= 100; i++){
-    //     for(int j = 1; j <= 100; j++){
-    //         if(graph[i][j] == 1) result++;
-    //     }
-    // }
+for(int i = 0; i < n; i++){
+        int coin;
+        cin >> coin;
+        if(coins_visited[coin] == false){
+            coins.push_back(coin);
+            coins_visited[coin] = true;
+        }
+    }
+
+    sort(coins.begin(), coins.end());
+
+    for(int i = 0; i < coins.size(); i++){
+        for(int j = coins[i]; j <= k; j++){
+            dp[i] = min(dp[i], dp[i - coins[j]] + 1);
+        }
+    }
+
+    cout << dp[k];
+
+    return 0;
