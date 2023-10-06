@@ -31,6 +31,8 @@
         "*.ipp": "cpp",
         "chrono": "cpp",
         "codecvt": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "variant": "cpp",
+        "ranges": "cpp"
     }
 }
