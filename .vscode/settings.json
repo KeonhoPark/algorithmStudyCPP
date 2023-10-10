@@ -33,6 +33,7 @@
         "codecvt": "cpp",
         "xlocale": "cpp",
         "variant": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "numeric": "cpp"
     }
 }
