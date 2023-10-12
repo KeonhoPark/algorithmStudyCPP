@@ -7,19 +7,15 @@ int graph[1001][1001];
 bool visited[1001];
 
 void dfs(int t_num, int root, int start, int c_num, int visited_c_num){
-    visited[start] = true;
-    for(int i = 1; i <= c_num; i++) cout << visited[i] << " ";
-    cout << "\n";
-    visited_c_num++;
-
     if(visited_c_num == c_num){
-        results[t_num] = root;
+        results[t_num] = root - 1;
         return;
     }
 
     for(int i = 1; i <= c_num; i++){
         if(graph[start][i] == 1 && !visited[i]){
-            dfs(t_num, root + 1, i, c_num, visited_c_num);
+            dfs(t_num, root + 1, i, c_num, visited_c_num + 1);
+            visited[start] = true;
         }
     }
 }
