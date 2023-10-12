@@ -1,7 +1,6 @@
-for(int i = n; i > idx; i--){
-    //     for(int j = n-1; j >= idx; j--){
-    //         if(dp[i] - dp[j] == n) result++;
-    //     }
-    // }
-
-    // cout << result;
+for(int i = 0; i < 5; i++){
+            //     for(int j = 0; j < 5; j++){
+            //         cout << graph[i][j] << " ";
+            //     }
+            //     cout << "\n";
+            // }

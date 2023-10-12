@@ -35,6 +35,7 @@
         "variant": "cpp",
         "ranges": "cpp",
         "numeric": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "random": "cpp"
     }
 }
