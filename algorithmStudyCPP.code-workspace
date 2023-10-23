@@ -1,0 +1,51 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../prj1_Arduino"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"xstring": "cpp",
+			"ostream": "cpp",
+			"utility": "cpp",
+			"xtree": "cpp",
+			"vector": "cpp",
+			"map": "cpp",
+			"algorithm": "cpp",
+			"list": "cpp",
+			"memory": "cpp",
+			"xmemory": "cpp",
+			"xutility": "cpp",
+			"initializer_list": "cpp",
+			"xhash": "cpp",
+			"atomic": "cpp",
+			"ios": "cpp",
+			"system_error": "cpp",
+			"xiosbase": "cpp",
+			"valarray": "cpp",
+			"functional": "cpp",
+			"*.tcc": "cpp",
+			"stack": "cpp",
+			"type_traits": "cpp",
+			"queue": "cpp",
+			"forward_list": "cpp",
+			"regex": "cpp",
+			"iosfwd": "cpp",
+			"string": "cpp",
+			"*.ipp": "cpp",
+			"chrono": "cpp",
+			"codecvt": "cpp",
+			"xlocale": "cpp",
+			"variant": "cpp",
+			"ranges": "cpp",
+			"numeric": "cpp",
+			"deque": "cpp",
+			"random": "cpp"
+		}
+	}
+}
