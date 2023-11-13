@@ -31,26 +31,26 @@ int main(){
 
     for(int i = 0; i < n; i++){
         if((broken.find(i) != broken.end()) && (reserve.find(i) != reserve.end())){
-            reserve[i] = 1;
-            broken[i] = 1;
+            reserve.erase(i);
+            broken.erase(i);
         }
     }
 
     for(int i = 0; i < n; i++){
-        if((broken.find(i) != broken.end()) && (reserve.find(i) == reserve.end()) && (broken[i] == 0)){
-            if((reserve.find(i - 1) != reserve.end()) && (reserve[i - 1] == 0)){
-                reserve[i - 1] = 1;
-                broken[i] = 1;
+        if((broken.find(i) != broken.end()) && (reserve.find(i) == reserve.end())){
+            if((reserve.find(i - 1) != reserve.end())){
+                reserve.erase(i - 1);
+                broken.erase(i);
             }
-            else if((reserve.find(i + 1) != reserve.end()) && (reserve[i + 1] == 0)){
-                reserve[i + 1] = 1;
-                broken[i] = 1;
+            else if((reserve.find(i + 1) != reserve.end())){
+                reserve.erase(i + 1);
+                broken.erase(i);
             }
         }
     }
 
     for(auto it = broken.begin(); it != broken.end(); it++){
-        if(it->second == 0) result++;
+        result++;
     }
 
     cout << result;
